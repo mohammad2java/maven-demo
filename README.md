@@ -12,7 +12,8 @@ https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#
 concept about pom.xml
 ----------------------
 root tag/element name is project
-<project>
+    
+    <project>
    
     Its consist following elements
     1) <properties></properties>            --to configure properties
@@ -23,7 +24,7 @@ root tag/element name is project
     6) <profiles></profiles>                -- to configure evn respective build plan
     7) <reporting></reporting>              -- to get report as per need.
      
-</project>
+     </project>
 
 
 1) <properties></properties>
