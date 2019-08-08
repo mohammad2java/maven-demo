@@ -11,7 +11,8 @@ https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#
 
 concept about pom.xml
 ----------------------
-root tag/element name is project
+    
+    root tag/element name is project
     
     <project>
    
@@ -27,9 +28,10 @@ root tag/element name is project
      </project>
 
 
-1) <properties></properties>
-------------------------
-This uses to provide properties inside build life cycles.
+    1) <properties></properties>
+    ------------------------
+    
+    This uses to provide properties inside build life cycles.
     
     example:
       <properties>
@@ -44,13 +46,14 @@ This uses to provide properties inside build life cycles.
     There are alot of inbuilt propertry in maven that helps developer work with Maven.
     1) ${basedir} return path of project.
     Java System properties also can be use as inbuit properties like ${user.home}
+
 click here to more details
 --------------------------
 https://maven.apache.org/archives/maven-1.x/reference/properties.html
     
     
-2) <dependencies></dependencies>
-----------------------------------
+    2) <dependencies></dependencies>
+    ----------------------------------
 
     This is use to maintain dependecy liberary(jar) file.
     in java project are also dependent upon some external /internal lib(jar file) to include those jar file automatically into project we have defined as dependecy.
